@@ -14,14 +14,18 @@
   },
   "homepage": "https://github.com/Leckie01/nuber-server#readme",
   "dependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "bcrpyt": "^2.0.0",
     "class-validator": "^0.11.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "graphql-tools": "^3.1.1",
     "graphql-yoga": "^1.18.3",
     "helmet": "^3.21.2",
+    "install": "^0.13.0",
     "merge-graphql-schemas": "^1.5.8",
     "morgan": "^1.9.1",
+    "node-pre-gyp": "^0.14.0",
     "pg": "^7.15.1",
     "typeorm": "^0.2.22"
   },
