@@ -14,6 +14,7 @@
   },
   "homepage": "https://github.com/Leckie01/nuber-server#readme",
   "dependencies": {
+    "class-validator": "^0.11.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "graphql-tools": "^3.1.1",
