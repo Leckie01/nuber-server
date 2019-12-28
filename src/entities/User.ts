@@ -1,4 +1,4 @@
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import { IsEmail } from "class-validator";
 import {
   BaseEntity,

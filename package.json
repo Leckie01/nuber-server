@@ -14,8 +14,7 @@
   },
   "homepage": "https://github.com/Leckie01/nuber-server#readme",
   "dependencies": {
-    "@types/bcrypt": "^3.0.0",
-    "bcrypt": "^2.0.1",
+    "bcryptjs": "^2.4.3",
     "class-validator": "^0.11.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
@@ -23,10 +22,9 @@
     "graphql-yoga": "^1.18.3",
     "helmet": "^3.21.2",
     "install": "^0.13.0",
-    "merge-graphql-schemas": "^1.5.8",
+    "merge-graphql-schemas": "^1.6.1",
     "morgan": "^1.9.1",
-    "node-pre-gyp": "^0.14.0",
-    "pg": "^7.15.1",
+    "pg": "^7.16.0",
     "typeorm": "^0.2.22"
   },
   "scripts": {
@@ -36,10 +34,11 @@
     "types": "graphql-to-typescript ./src/schema.graphql ./src/types/graph.d.ts"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
     "@types/cors": "^2.8.6",
     "@types/helmet": "0.0.45",
     "@types/morgan": "^1.7.37",
-    "@types/node": "^13.1.0",
+    "@types/node": "^13.1.1",
     "babel-runtime": "^6.26.0",
     "gql-merge": "0.0.6",
     "graphql-to-typescript": "^0.1.2",
