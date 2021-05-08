@@ -25,7 +25,7 @@
     "merge-graphql-schemas": "^1.6.1",
     "morgan": "^1.9.1",
     "pg": "^7.16.0",
-    "typeorm": "^0.2.22"
+    "typeorm": "^0.2.25"
   },
   "scripts": {
     "predev": "npm run types",
